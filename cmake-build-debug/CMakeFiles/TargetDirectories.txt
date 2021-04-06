@@ -1,0 +1,5 @@
+/home/alice/CLionProjects/SmartDrobe/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/alice/CLionProjects/SmartDrobe/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/alice/CLionProjects/SmartDrobe/cmake-build-debug/CMakeFiles/SmartDrobe.dir
+/home/alice/CLionProjects/SmartDrobe/cmake-build-debug/_deps/json-build/CMakeFiles/rebuild_cache.dir
+/home/alice/CLionProjects/SmartDrobe/cmake-build-debug/_deps/json-build/CMakeFiles/edit_cache.dir

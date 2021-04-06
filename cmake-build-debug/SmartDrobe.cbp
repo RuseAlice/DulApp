@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="SmartDrobe"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\cmake-build-debug\;CMake Files\cmake-build-debug\_deps\;CMake Files\cmake-build-debug\_deps\json-src\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/alice/CLionProjects/SmartDrobe/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/alice/CLionProjects/SmartDrobe/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/alice/CLionProjects/SmartDrobe/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/alice/CLionProjects/SmartDrobe/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/alice/CLionProjects/SmartDrobe/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/alice/CLionProjects/SmartDrobe/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/alice/CLionProjects/SmartDrobe/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/alice/CLionProjects/SmartDrobe/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/alice/CLionProjects/SmartDrobe/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/alice/CLionProjects/SmartDrobe/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/alice/CLionProjects/SmartDrobe/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/alice/CLionProjects/SmartDrobe/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/alice/CLionProjects/SmartDrobe/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/alice/CLionProjects/SmartDrobe/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/alice/CLionProjects/SmartDrobe/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="SmartDrobe">
+				<Option output="/home/alice/CLionProjects/SmartDrobe/cmake-build-debug/SmartDrobe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/alice/CLionProjects/SmartDrobe/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/alice/CLionProjects/SmartDrobe/Interface"/>
+					<Add directory="/home/alice/CLionProjects/SmartDrobe/Entities"/>
+					<Add directory="/home/alice/CLionProjects/SmartDrobe/Repositories"/>
+					<Add directory="/home/alice/CLionProjects/SmartDrobe/Services"/>
+					<Add directory="/home/alice/CLionProjects/SmartDrobe/cmake-build-debug/_deps/json-src/include"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/alice/CLionProjects/SmartDrobe/cmake-build-debug/Makefile&quot;  VERBOSE=1 SmartDrobe"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/alice/CLionProjects/SmartDrobe/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/alice/CLionProjects/SmartDrobe/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/alice/CLionProjects/SmartDrobe/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="SmartDrobe/fast">
+				<Option output="/home/alice/CLionProjects/SmartDrobe/cmake-build-debug/SmartDrobe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/alice/CLionProjects/SmartDrobe/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/alice/CLionProjects/SmartDrobe/Interface"/>
+					<Add directory="/home/alice/CLionProjects/SmartDrobe/Entities"/>
+					<Add directory="/home/alice/CLionProjects/SmartDrobe/Repositories"/>
+					<Add directory="/home/alice/CLionProjects/SmartDrobe/Services"/>
+					<Add directory="/home/alice/CLionProjects/SmartDrobe/cmake-build-debug/_deps/json-src/include"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/alice/CLionProjects/SmartDrobe/cmake-build-debug/Makefile&quot;  VERBOSE=1 SmartDrobe/fast"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/alice/CLionProjects/SmartDrobe/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/alice/CLionProjects/SmartDrobe/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/alice/CLionProjects/SmartDrobe/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/alice/CLionProjects/SmartDrobe/Main/main.cpp">
+			<Option target="SmartDrobe"/>
+		</Unit>
+		<Unit filename="/home/alice/CLionProjects/SmartDrobe/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/alice/CLionProjects/SmartDrobe/cmake-build-debug/_deps/json-src/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\cmake-build-debug\_deps\json-src\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
