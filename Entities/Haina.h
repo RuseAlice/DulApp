@@ -28,7 +28,7 @@ class Haina {
     public void setNrPurtari(int nr_purtari){this->nrPurtari=nr_purtari;}
     public bool getDisponibilitate(){return disponibil;}
     public void setDisponibilitate(bool disp){this->disponibil=disp;}
-
+//comentariu
 
 };
 
