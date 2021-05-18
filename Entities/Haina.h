@@ -5,30 +5,41 @@
 #ifndef SMARTDROBE_HAINA_H
 #define SMARTDROBE_HAINA_H
 
-enum Culoare{Alb, Negru, Albastru, Verde, Galben, Rosu, Portocaliu, Bloemarin, Gri, Bej, Maro};
-enum Stil{casual, sport, elegant, business, formal};
+enum Culoare{Alb, Negru, Albastru, Verde, Galben, Rosu, Portocaliu, Bleumarin, Gri, Bej, Maro, Mov};
+enum Stil{casual, sport, business, formal};
 enum Material{poliester, bumbac, stofa, denim, matase, in, fas, lana};
-class Haina {
-    private string denumire;
-    private Culoare culoare;
-    private Stil stil;
-    private Material material;
-    private int nrPurtari=0;
-    private bool disponibil;
+enum PiesaVestimentara{jacheta, top, pantaloni, piesaUnica};
 
-    public string getDenumire(){return denumire;}
-    public void setDenumire(string denumire){this.denumire=denumire;}
-    public Culoare getCuloare(){return culoare;}
-    public void setCuloare(Culoare culoare){this.culoare=culoare;}
-    public Stil getStil(){return stil};
-    public void setStil(Stil stil){this.stil=stil;}
-    public Material getMaterial(){return material;}
-    public void setMaterial(Material material){this->material=material;}
-    public int getNrPurtari(){return nrPurtari;}
-    public void setNrPurtari(int nr_purtari){this->nrPurtari=nr_purtari;}
-    public bool getDisponibilitate(){return disponibil;}
-    public void setDisponibilitate(bool disp){this->disponibil=disp;}
-//comentariu
+class Haina {
+private:
+    string denumire;
+    PiesaVestimentara piesaVestimentara;
+    Culoare culoare;
+    Stil stil;
+    Material material;
+    int nrPurtari=0;
+    bool disponibil;
+
+public:
+    Haina(string denumire, PiesaVestimentara piesaV, Culoare culoare, Stil stil, Material material);
+    Haina()=default;
+    string getDenumire(){return denumire;}
+    void setDenumire(string denumire){this->denumire=denumire;}
+    PiesaVestimentara getPiesaVestimentara(){return piesaVestimentara;}
+    void setPiesaVestimentara(PiesaVestimentara piesaVestimentara){this->piesaVestimentara=piesaVestimentara;}
+    Culoare getCuloare(){return culoare;}
+    void setCuloare(Culoare culoare){this->culoare=culoare;}
+    Stil getStil(){return stil;};
+    void setStil(Stil stil){this->stil=stil;}
+    Material getMaterial(){return material;}
+    void setMaterial(Material material){this->material=material;}
+    int getNrPurtari(){return nrPurtari;}
+    void setNrPurtari(int nr_purtari){this->nrPurtari=nr_purtari;}
+    bool getDisponibilitate(){return disponibil;}
+    void setDisponibilitate(bool disp){this->disponibil=disp;}
+    bool verificarePotrivire(Culoare culoare, Stil stil, float temperatura);
+    string afisare();
+    bool operator ==(Haina h);
 
 };
 
